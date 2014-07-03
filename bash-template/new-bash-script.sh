@@ -51,7 +51,7 @@ EOF
 while getopts ":h" Option; do
 	case \${Option} in
 
-# Options are terminated with ;;
+		# Options are terminated with ;;
 
 		h )	Usage 1>&2
 			exit 0;;
